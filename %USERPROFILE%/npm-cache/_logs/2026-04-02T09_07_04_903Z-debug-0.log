@@ -1,0 +1,64 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\projects\family-agent\.npmrc
+5 silly config load:file:C:\Users\GARVITA DALMIA\.npmrc
+6 silly config load:file:C:\projects\family-agent\%USERPROFILE%\npm-global\etc\npmrc
+7 verbose title npm install @anthropic-ai/sdk
+8 verbose argv "install" "@anthropic-ai/sdk"
+9 verbose logfile logs-max:10 dir:C:\projects\family-agent\%USERPROFILE%\npm-cache\_logs\2026-04-02T09_07_04_903Z-
+10 verbose logfile C:\projects\family-agent\%USERPROFILE%\npm-cache\_logs\2026-04-02T09_07_04_903Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @anthropic-ai/sdk@*
+16 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fsdk cache-miss
+17 http cache https://registry.npmjs.org/@anthropic-ai%2fsdk 46ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/@anthropic-ai%2fsdk set size:688520 disposed:false
+19 silly fetch manifest zod@^3.25.0 || ^4.0.0
+20 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+21 http cache https://registry.npmjs.org/zod 25ms (cache hit)
+22 silly packumentCache full:https://registry.npmjs.org/zod set size:3489329 disposed:false
+23 silly placeDep ROOT @anthropic-ai/sdk@0.82.0 OK for: family-memory-keeper-agent@1.0.0 want: *
+24 silly fetch manifest json-schema-to-ts@^3.1.1
+25 silly packumentCache full:https://registry.npmjs.org/json-schema-to-ts cache-miss
+26 http cache https://registry.npmjs.org/json-schema-to-ts 17ms (cache hit)
+27 silly packumentCache full:https://registry.npmjs.org/json-schema-to-ts set size:287972 disposed:false
+28 silly placeDep ROOT json-schema-to-ts@3.1.1 OK for: @anthropic-ai/sdk@0.82.0 want: ^3.1.1
+29 silly fetch manifest @babel/runtime@^7.18.3
+30 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime cache-miss
+31 silly fetch manifest ts-algebra@^2.0.0
+32 silly packumentCache full:https://registry.npmjs.org/ts-algebra cache-miss
+33 http cache https://registry.npmjs.org/ts-algebra 15ms (cache hit)
+34 silly packumentCache full:https://registry.npmjs.org/ts-algebra set size:143978 disposed:false
+35 http cache https://registry.npmjs.org/@babel%2fruntime 27ms (cache hit)
+36 silly packumentCache full:https://registry.npmjs.org/@babel%2fruntime set size:3372292 disposed:false
+37 silly placeDep ROOT @babel/runtime@7.29.2 OK for: json-schema-to-ts@3.1.1 want: ^7.18.3
+38 silly placeDep ROOT ts-algebra@2.0.0 OK for: json-schema-to-ts@3.1.1 want: ^2.0.0
+39 silly reify moves {}
+40 silly audit bulk request {
+40 silly audit   '@anthropic-ai/sdk': [ '0.82.0' ],
+40 silly audit   'json-schema-to-ts': [ '3.1.1' ],
+40 silly audit   '@babel/runtime': [ '7.29.2' ],
+40 silly audit   'ts-algebra': [ '2.0.0' ]
+40 silly audit }
+41 http cache @babel/runtime@https://registry.npmjs.org/@babel/runtime/-/runtime-7.29.2.tgz 0ms (cache hit)
+42 http cache ts-algebra@https://registry.npmjs.org/ts-algebra/-/ts-algebra-2.0.0.tgz 0ms (cache hit)
+43 http cache json-schema-to-ts@https://registry.npmjs.org/json-schema-to-ts/-/json-schema-to-ts-3.1.1.tgz 0ms (cache hit)
+44 http cache @anthropic-ai/sdk@https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.82.0.tgz 0ms (cache hit)
+45 silly tarball no local data for @anthropic-ai/sdk@https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.82.0.tgz. Extracting by manifest.
+46 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 466ms
+47 silly audit report {}
+48 http fetch GET 200 https://registry.npmjs.org/@anthropic-ai/sdk/-/sdk-0.82.0.tgz 2110ms (cache miss)
+49 silly ADD node_modules/ts-algebra
+50 silly ADD node_modules/@babel/runtime
+51 silly ADD node_modules/json-schema-to-ts
+52 silly ADD node_modules/@anthropic-ai/sdk
+53 verbose cwd C:\projects\family-agent
+54 verbose os Windows_NT 10.0.26200
+55 verbose node v22.15.0
+56 verbose npm  v10.9.2
+57 verbose exit 0
+58 info ok

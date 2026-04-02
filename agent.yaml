@@ -1,0 +1,17 @@
+spec_version: "0.1.0"
+name: family-memory-keeper
+version: 0.1.0
+description: "An AI agent that preserves family stories, celebrates milestones, and keeps loved ones connected"
+
+model:
+  preferred: claude-sonnet-4-5-20250929
+
+skills:
+  - story-collector
+  - birthday-greeter
+  - weekly-digest
+
+tags:
+  - family
+  - memory
+  - hackathon

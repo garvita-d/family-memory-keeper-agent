@@ -1,0 +1,17 @@
+{
+  "name": "family-memory-keeper-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.82.0",
+    "groq-sdk": "^1.1.2"
+  }
+}

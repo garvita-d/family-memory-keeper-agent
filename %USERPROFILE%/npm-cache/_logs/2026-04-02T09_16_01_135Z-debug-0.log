@@ -1,0 +1,40 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\projects\family-agent\.npmrc
+5 silly config load:file:C:\Users\GARVITA DALMIA\.npmrc
+6 silly config load:file:C:\projects\family-agent\%USERPROFILE%\npm-global\etc\npmrc
+7 verbose title npm install groq-sdk
+8 verbose argv "install" "groq-sdk"
+9 verbose logfile logs-max:10 dir:C:\projects\family-agent\%USERPROFILE%\npm-cache\_logs\2026-04-02T09_16_01_135Z-
+10 verbose logfile C:\projects\family-agent\%USERPROFILE%\npm-cache\_logs\2026-04-02T09_16_01_135Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest groq-sdk@*
+16 silly packumentCache full:https://registry.npmjs.org/groq-sdk cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/groq-sdk 344ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/groq-sdk set size:undefined disposed:false
+19 silly placeDep ROOT groq-sdk@1.1.2 OK for: family-memory-keeper-agent@1.0.0 want: *
+20 silly reify moves {}
+21 silly audit bulk request {
+21 silly audit   '@anthropic-ai/sdk': [ '0.82.0' ],
+21 silly audit   '@babel/runtime': [ '7.29.2' ],
+21 silly audit   'json-schema-to-ts': [ '3.1.1' ],
+21 silly audit   'ts-algebra': [ '2.0.0' ],
+21 silly audit   'groq-sdk': [ '1.1.2' ]
+21 silly audit }
+22 http cache groq-sdk@https://registry.npmjs.org/groq-sdk/-/groq-sdk-1.1.2.tgz 1ms (cache hit)
+23 silly tarball no local data for groq-sdk@https://registry.npmjs.org/groq-sdk/-/groq-sdk-1.1.2.tgz. Extracting by manifest.
+24 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 266ms
+25 silly audit report {}
+26 http fetch GET 200 https://registry.npmjs.org/groq-sdk/-/groq-sdk-1.1.2.tgz 1216ms (cache miss)
+27 silly ADD node_modules/groq-sdk
+28 verbose cwd C:\projects\family-agent
+29 verbose os Windows_NT 10.0.26200
+30 verbose node v22.15.0
+31 verbose npm  v10.9.2
+32 verbose exit 0
+33 info ok
