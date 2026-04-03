@@ -1,7 +1,12 @@
 ---
 name: birthday-greeter
+version: 1.0.0
 description: "Creates a personalised birthday message using stored family memories"
 allowed-tools: Read
+triggers:
+  - "birthday message"
+  - "birthday wish"
+  - "write something for"
 ---
 
 # Birthday Greeter
@@ -39,17 +44,4 @@ drawing on memories stored in the memories/ folder.
 
 ```
 
----
-
-## Your complete folder structure now looks like this
 ```
-
-family-agent/
-├── agent.yaml
-├── SOUL.md
-├── RULES.md
-└── skills/
-├── story-collector/
-│ └── SKILL.md
-└── birthday-greeter/
-└── SKILL.md

@@ -1,7 +1,12 @@
 ---
 name: story-collector
-description: "Gently interviews a family member and preserves their story as a memory"
+version: 1.0.0
+description: "Gently interviews a family member and preserves their story as a memory file"
 allowed-tools: Read Write
+triggers:
+  - "save a memory"
+  - "share a story"
+  - "remember something"
 ---
 
 # Story Collector

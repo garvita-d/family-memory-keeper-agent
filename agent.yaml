@@ -1,10 +1,12 @@
 spec_version: "0.1.0"
 name: family-memory-keeper
-version: 0.1.0
-description: "An AI agent that preserves family stories, celebrates milestones, and keeps loved ones connected"
+version: 1.0.0
+description: "An AI agent that preserves family stories, celebrates milestones,
+  and keeps loved ones connected across distance — one memory at a time."
 
 model:
   preferred: claude-sonnet-4-5-20250929
+  fallback: llama-3.3-70b-versatile
 
 skills:
   - story-collector
@@ -14,4 +16,6 @@ skills:
 tags:
   - family
   - memory
+  - emotional
+  - open-innovation
   - hackathon
